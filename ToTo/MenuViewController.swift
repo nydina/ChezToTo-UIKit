@@ -4,15 +4,15 @@ class MenuViewController: UITableViewController {
     let sections = ["Entrée", "Pizza"]
 
     let entreeItems = [
-        ("Entrée 1", "Description 1", "$10.99", "entree1"),
-        ("Entrée 2", "Description 2", "$12.99", "entree2")
+        ("Garlic bread", "Du pain legèrement croustillant parfumé à l’ail", "3,50€", "entree1"),
+        ("Potatoes", "Quartiers de pommes de terre dorés au four", "3,50€", "entree2")
     ]
 
     let pizzaItems = [
-        ("Pizza 1", "Description 1", "$15.99", "pizza1"),
-        ("Pizza 2", "Description 2", "$18.99", "pizza2"),
-        ("Pizza 3", "Description 3", "$20.99", "pizza3"),
-        ("Pizza 4", "Description 4", "$22.99", "pizza4")
+        ("Margarita", "La classique base tomate et fromage", "10€", "pizza1"),
+        ("Végétarienne", "Base tomate, légumes de saison et fromage", "12€", "pizza2"),
+        ("Peperoni", "Base tomate, peperoni et fromage", "13,50€", "pizza3"),
+        ("4 fromages", "Base crème, emmental, morbier, chèvre et gorgonzola", "12,50€", "pizza4")
     ]
 
     override func numberOfSections(in tableView: UITableView) -> Int {
